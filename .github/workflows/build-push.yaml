@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ethpandaops/ethereum-genesis-generator
+          images: bensamstob/ethereum-genesis-generator
           flavor: latest=true
           tags: |
             type=ref,event=branch
